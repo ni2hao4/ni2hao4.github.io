@@ -1,331 +1,234 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-  <meta charset="utf-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>Yuppies’ Life</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Yuppies’ Life">
-<meta property="og:url" content="http://www.yuppieslife.com/index.html">
-<meta property="og:site_name" content="Yuppies’ Life">
-<meta property="og:description">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Yuppies’ Life">
-<meta name="twitter:description">
-  
-    <link rel="alternative" href="/atom.xml" title="Yuppies’ Life" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  <link rel="stylesheet" href="/css/style.css">
+<title>Home</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
+</script>
+<meta name="keywords" content="Coffee Bar Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndriodCompatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<!--Google Fonts-->
+<link href='http://fonts.useso.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
 </head>
-
 <body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			
-			<img lazy-src="/images/avastar.jpg" class="js-avatar">
-			
-		</a>
+<!--header start here-->
+<div class="header">
+   <div class="container">
+        <div class="header-main">
+			 <div class="logo">
+			   <a href="index.html"><img src="images/logo.png" alt=""></a>
+			 </div>
+            <div class="top-nav">
+            	<span class="menu"> <img src="images/icon.png" alt=""/></span>
+				<ul class="nav nav-pills nav-justified res">
+					<li><a class="active no-bar" href="index.html"><i class="glyphicon glyphicon-home"> </i>Home</a></li>
+					<li ><a class="icon" href="about.html"><i class="glyphicon glyphicon-star"> </i>About</a></li>
+					<li><a href="services.html"><i  class="glyphicon glyphicon-thumbs-up"> </i>Services</a></li>
+					<li><a href="pages.html"><i class="glyphicon glyphicon-list-alt"> </i>Typo</a></li>
+					<li><a href="blog.html"><i class="glyphicon glyphicon-picture"> </i>blog</a></li>
+					<li><a href="contact.html"><i class="glyphicon glyphicon-envelope"> </i>Contact</a></li>
+				</ul>
+				<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+			<!-- /script-for-menu -->
+			 </div>	
+     <div class="clearfix"> </div>
+   </div>	
+ </div>
+</div>
+<!--header end here-->
+<!--banner start here-->
+<div class="banner">
+  <div class="container">
+ 	<div class="banner-main">
+	  <section class="slider">
+           <div class="flexslider">
+             <ul class="slides">
+				   <li>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
+				   </li>
+				   <li>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
+				  </li>
+				  <li>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.</p>
+				</li>
+          </ul>
+        </div>
+      </section>
 
-		<hgroup>
-		  <h1 class="header-author"><a href="/">蓝山</a></h1>
-		</hgroup>
+	</div>
+</div>
+<!--FlexSlider-->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
 
-		
-
-		
-			<div class="switch-btn">
-				<div class="icon">
-					<div class="icon-ctn">
-						<div class="icon-wrap icon-house" data-idx="0">
-							<div class="birdhouse"></div>
-							<div class="birdhouse_holes"></div>
-						</div>
-						<div class="icon-wrap icon-ribbon hide" data-idx="1">
-							<div class="ribbon"></div>
-						</div>
-						
-						<div class="icon-wrap icon-link hide" data-idx="2">
-							<div class="loopback_l"></div>
-							<div class="loopback_r"></div>
-						</div>
-						
-						
-						<div class="icon-wrap icon-me hide" data-idx="3">
-							<div class="user"></div>
-							<div class="shoulder"></div>
-						</div>
-						
-					</div>
-					
-				</div>
-				<div class="tips-box hide">
-					<div class="tips-arrow"></div>
-					<ul class="tips-inner">
-						<li>Menu</li>
-						<li>Tags</li>
-						
-						<li>Links</li>
-						
-						
-						<li>Über</li>
-						
-					</ul>
+</div>
+<!--banner end here-->
+<!--banner info start here-->
+<div class="bann-info">
+	<div class="container">
+		<div class="bann-info-main">
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b1.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>Black Coffee</h3>
+					<p>odio dignissimos ducimus qui</p>
 				</div>
 			</div>
-		
-
-		<div class="switch-area">
-			<div class="switch-wrap">
-				<section class="switch-part switch-part1">
-					<nav class="header-menu">
-						<ul>
-						
-							<li><a href="/">主页</a></li>
-				        
-							<li><a href="/archives">所有文章</a></li>
-				        
-						</ul>
-					</nav>
-					<nav class="header-nav">
-						<div class="social">
-							
-								<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
-					        
-								<a class="rss" target="_blank" href="#" title="rss">rss</a>
-					        
-								<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
-					        
-						</div>
-					</nav>
-				</section>
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b2.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>Green Coffee</h3>
+					<p>odio dignissimos ducimus qui</p>
+				</div>
+			</div>
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b3.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>Coffee</h3>
+					<p>odio dignissimos ducimus qui</p>
+				</div>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--banner info end here-->
+<!-- coff-online start here-->
+<div class="coff-online">
+	<div class="container">
+		<div class="coff-online-main">
+			 <h1>Welcome</h1>
+			 <h2>To Our Online Coffee Bar</h2>
+			 <h4>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration  injected humour.</h4>
+			 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+		     <a href="single.html"> <span class="glyphicon glyphicon-list-alt read" aria-hidden="true"> </span> </a>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--ccoff-online end here-->
+<!--coff-bar start here-->
+<div class="coff-bar">
+		<div class="coff-bar-main">
+			<div class="col-md-6 coff-bar-left">
 				
+			</div>
+			<div class="col-md-6 coff-bar-right">
+				<h3>Dolore magna aliqua</h3>
+				<p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			    <div class="cof-bar-btn">
+			    	<a href="single.html" class="hvr-bounce-to-bottom">Learn More</a>
+			    </div>
+			</div>
+			<div class="clearfix"> </div>
+		 </div>
+</div>
+<!--coff-bar end here-->
+<!--culfy start here-->
+<div class="culfy">
+		<div class="culfy-main">
+			<div class="col-md-6 culfy-left">
+				<h4>30/7/2015</h4>
+				<h3>Dolore magna aliqua</h3>
+				<p> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+			    <div class="cull-btn">
+			    	<a href="single.html" class="hvr-bounce-to-bottom">Learn More</a>
+			    </div>
+			</div>
+			<div class="col-md-6 culfy-right">
 				
-				<section class="switch-part switch-part2">
-					<div class="widget tagcloud" id="js-tagcloud">
-						
-					</div>
-				</section>
-				
-				
-				
-				<section class="switch-part switch-part3">
-					<div id="js-friends">
-					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
-			        
-			        </div>
-				</section>
-				
-
-				
-				
-				<section class="switch-part switch-part4">
-				
-					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
-				</section>
-				
+			</div>
+			<div class="clearfix"> </div>
+		 </div>
+</div>
+<!--culfy end here-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+		   <div class="col-md-3 footer-grid">
+				<h3>Information</h3>
+				<ul>
+					<li><a class="active no-bar" href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="pages.html">Pages</a></li>
+					<li><a href="blog.html">blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		   </div>
+			<div class="col-md-3 footer-grid">
+				<h3>My Account</h3>
+				<p><a href="#">My Account</a></p>
+				<p><a href="contact.html">My Addresses</a></p>
+				<p><a href="#">My Cart</a></p>
+			</div>
+			<div class="col-md-3 footer-grid">
+				<h3>Contact Us</h3>
+				<h4>Coffee-bar</h4>
+				<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+			    <div class="ftr-cont">
+			    	<span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span>
+			    	<a href="#">mail@user.com</a>
+			    </div>
+			</div>
+			<div class="col-md-3 footer-grid">
+				<h3>Follow Us</h3>
+				<ul class="social-icon-ftr">
+					<li><a href="#"><span class="fa">  </span></a></li>
+					<li><a href="#"><span class="tw">  </span> </a></li>
+					<li><a href="#"><span class="p">  </span></a></li>
+				</ul>
+			</div>
+		<div class="clearfix"> </div>
+		<div class="copyright">
+	            <p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
 			</div>
 		</div>
-	</header>				
-</div>
-
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"></div>
-  		<h1 class="header-author js-mobile-header hide">蓝山</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-			
-				<img lazy-src="/images/avastar.jpg" class="js-avatar">
-			
-			</div>
-			<hgroup>
-			  <h1 class="header-author">蓝山</h1>
-			</hgroup>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/">主页</a></li>
-		        
-					<li><a href="/archives">所有文章</a></li>
-		        
-		        <div class="clearfix"></div>
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss">rss</a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
-			        
-				</div>
-			</nav>
-		</header>				
 	</div>
-</nav>
-
-      <div class="body-wrap">
-  
-    <article id="post-post" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/08/post/" class="article-date">
-  	<time datetime="2016-06-08T02:25:23.000Z" itemprop="datePublished">2016-06-08</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="开博客第一篇"><a href="#开博客第一篇" class="headerlink" title="开博客第一篇"></a>开博客第一篇</h1><p>首先允许要自己表达一下内心的喜悦，终于可以拥有自建的博客了！✌️</p>
-<p>感谢网上各路大神对于一些初学者的帮助，教程和Hexo的编写者，本想也来一篇文章教程来为后人引路，但在看了网上众多的教程之后还是作罢这个念头，我会在后面附上参考文章的链接，如果遇到问题的话也可以在下面留言，我也会尽力作答。</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-  
 </div>
-      <footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-    	<div class="footer-left">
-    		&copy; 2016 蓝山
-    	</div>
-      	<div class="footer-right">
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
-本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
-      	</div>
-    </div>
-  </div>
-</footer>
-
-
-    </div>
-    
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-
-<script>
-	var yiliaConfig = {
-		fancybox: true,
-		mathjax: true,
-		animate: true,
-		isHome: true,
-		isPost: false,
-		isArchive: false,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false
-	}
-</script>
-<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-<script src="/js/main.js"></script>
-
-
-
-<!-- Google Analytics -->
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-78979208-1', 'auto');
-ga('send', 'pageview');
-
-</script>
-<!-- End Google Analytics -->
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-78979208-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-});
-
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
-});
-</script>
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-  </div>
+<!--footer end here-->
 </body>
 </html>
