@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yuppies’ Life</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.yuppieslife.com/"/>
+  <updated>2016-06-28T11:14:57.000Z</updated>
+  <id>http://www.yuppieslife.com/</id>
+  
+  <author>
+    <name>Yuppies’ Life</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://www.yuppieslife.com/2016/06/12/post/"/>
+    <id>http://www.yuppieslife.com/2016/06/12/post/</id>
+    <published>2016-06-12T12:06:24.000Z</published>
+    <updated>2016-06-28T11:14:57.000Z</updated>
+    
+    <content type="html">&lt;p&gt;#test&lt;/p&gt;
+&lt;p&gt;###about me&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://nihao.quickconnect.to/photo/index.php#!Albums/album_5975707069657327204c696665/photo_5975707069657327204c696665_494d475f303033352e6a7067&quot; alt=&quot;me&quot;&gt;&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#test&lt;/p&gt;
+&lt;p&gt;###about me&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://nihao.quickconnect.to/photo/index.php#!Albums/album_5975707069657327204c696665/photo_597
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
